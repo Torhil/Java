@@ -8,11 +8,11 @@ public class delta {
         
         System.out.println("Obliczamy delte!\n");
         System.out.println("Podaj wartość A:");
-        int a = input.nextInt();
+        double a = input.nextDouble();
         System.out.println("Podaj wartość B:");
-        int b = input.nextInt();
+        double b = input.nextDouble();
         System.out.println("Podaj wartość C:");
-        int c = input.nextInt();
+        double c = input.nextDouble();
 
         double delta = b * b - 4 * a * c;
             if(delta < 0) {
