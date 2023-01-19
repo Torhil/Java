@@ -23,5 +23,6 @@ public class Main06 {
         double salaryDiff = (salaryBrutto - salaryNetto);
         String salaryDif = String.format("%.2f", salaryDiff);
         System.out.println("Państwo okradło Cię na: " + salaryDif + " zł w skali roku.");
+        input.close();
     }
 }

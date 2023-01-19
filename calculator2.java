@@ -28,6 +28,6 @@ public class calculator2 {
                 }
                 System.out.println(a / b);
             }
-
+        input.close();
     }
 }

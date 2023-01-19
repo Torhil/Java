@@ -44,6 +44,7 @@ public class Bank {
         double withdrawAmount = input.nextDouble();
         account.withdraw(withdrawAmount);
         System.out.println("Saldo po wypłacie środków: " + account.getBalance());
+        input.close();
     }
 }
 
